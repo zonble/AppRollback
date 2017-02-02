@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++652A1CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++6BED784" : 9223372036854775807,
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++41E2E09" : 9223372036854775807,
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++652A1CC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52BCA032-50A4-46D3-AFDE-4141FD96436A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++6BED784" : "AppRollback\/PreviousVersion\/",
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++41E2E09" : "AppRollback\/PreviousVersion\/",
+    "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++652A1CC" : "AppRollback\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AppRollback",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AppRollback.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zonble\/AppRollback.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++41E2E09"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zonble\/AppRollback.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++652A1CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zonble\/AppRollback.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "451C573D28EC85E06C0E1CD1A02CE4CDB3DF6926+++6BED784"
+    }
+  ]
+}

@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  AppRollback
-//
-//  Created by zonble on 2/2/17.
-//  Copyright © 2017 KKBOX Taiwan Co., Ltd. All rights reserved.
-//
-
 #import "AppDelegate.h"
 #import "ViewController.h"
 
