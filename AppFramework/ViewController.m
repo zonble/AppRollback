@@ -10,7 +10,7 @@
 {
 	[super viewDidLoad];
 	[self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
-	self.title = @"Version 1";
+	self.title = @"Version 2";
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,7 +26,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-	cell.textLabel.text = @"Version 1";
+	cell.textLabel.text = @"Version 2";
 	return cell;
 }
 

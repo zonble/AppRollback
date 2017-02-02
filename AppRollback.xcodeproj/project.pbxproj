@@ -10,8 +10,8 @@
 		D43CCC761E43854300B8C0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CCC751E43854300B8C0A4 /* main.m */; };
 		D43CCC811E43854300B8C0A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43CCC801E43854300B8C0A4 /* Assets.xcassets */; };
 		D43CCC841E43854300B8C0A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43CCC821E43854300B8C0A4 /* LaunchScreen.storyboard */; };
-		D45851E11E438C220044BD96 /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45851E01E438BF90044BD96 /* AppFramework.framework */; };
-		D45851E21E438C220044BD96 /* AppFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45851E01E438BF90044BD96 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D497220B1E4399B900480754 /* AppFrameworkAsPreviousVersion.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D49722001E43924500480754 /* AppFrameworkAsPreviousVersion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D497220C1E4399B900480754 /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D45851E01E438BF90044BD96 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +22,35 @@
 			remoteGlobalIDString = D45851C81E438BC00044BD96;
 			remoteInfo = AppFramework;
 		};
-		D45851E31E438C220044BD96 /* PBXContainerItemProxy */ = {
+		D49721F91E43924500480754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45851DB1E438BF90044BD96 /* AppFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45AFD9E1E439162000627AD;
+			remoteInfo = AppFrameworkAsPreviousVersion;
+		};
+		D49721FD1E43924500480754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49721F51E43924500480754 /* AppFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45851C81E438BC00044BD96;
+			remoteInfo = AppFramework;
+		};
+		D49721FF1E43924500480754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49721F51E43924500480754 /* AppFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45AFD9E1E439162000627AD;
+			remoteInfo = AppFrameworkAsPreviousVersion;
+		};
+		D49722061E43927D00480754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49721F51E43924500480754 /* AppFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D45AFD911E439162000627AD;
+			remoteInfo = AppFrameworkAsPreviousVersion;
+		};
+		D49722081E43999800480754 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D45851DB1E438BF90044BD96 /* AppFramework.xcodeproj */;
 			proxyType = 1;
@@ -32,15 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D43CCCC41E43897800B8C0A4 /* Embed Frameworks */ = {
+		D497220A1E4399A800480754 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D45851E21E438C220044BD96 /* AppFramework.framework in Embed Frameworks */,
+				D497220B1E4399B900480754 /* AppFrameworkAsPreviousVersion.framework in CopyFiles */,
+				D497220C1E4399B900480754 /* AppFramework.framework in CopyFiles */,
 			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -52,6 +80,7 @@
 		D43CCC831E43854300B8C0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43CCC851E43854300B8C0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45851DB1E438BF90044BD96 /* AppFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AppFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D49721F51E43924500480754 /* AppFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppFramework.xcodeproj; path = PreviousVersion/AppFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45851E11E438C220044BD96 /* AppFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +97,7 @@
 		D43CCC681E43854300B8C0A4 = {
 			isa = PBXGroup;
 			children = (
+				D49722011E43924D00480754 /* Previous Version */,
 				D45851DB1E438BF90044BD96 /* AppFramework.xcodeproj */,
 				D43CCC731E43854300B8C0A4 /* AppRollback */,
 				D43CCC721E43854300B8C0A4 /* Products */,
@@ -106,8 +135,26 @@
 			isa = PBXGroup;
 			children = (
 				D45851E01E438BF90044BD96 /* AppFramework.framework */,
+				D49721FA1E43924500480754 /* AppFrameworkAsPreviousVersion.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D49721F61E43924500480754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49721FE1E43924500480754 /* AppFramework.framework */,
+				D49722001E43924500480754 /* AppFrameworkAsPreviousVersion.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49722011E43924D00480754 /* Previous Version */ = {
+			isa = PBXGroup;
+			children = (
+				D49721F51E43924500480754 /* AppFramework.xcodeproj */,
+			);
+			name = "Previous Version";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,12 +167,13 @@
 				D43CCC6D1E43854300B8C0A4 /* Sources */,
 				D43CCC6E1E43854300B8C0A4 /* Frameworks */,
 				D43CCC6F1E43854300B8C0A4 /* Resources */,
-				D43CCCC41E43897800B8C0A4 /* Embed Frameworks */,
+				D497220A1E4399A800480754 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D45851E41E438C220044BD96 /* PBXTargetDependency */,
+				D49722091E43999800480754 /* PBXTargetDependency */,
+				D49722071E43927D00480754 /* PBXTargetDependency */,
 			);
 			name = AppRollback;
 			productName = AppRollback;
@@ -164,6 +212,10 @@
 					ProductGroup = D45851DC1E438BF90044BD96 /* Products */;
 					ProjectRef = D45851DB1E438BF90044BD96 /* AppFramework.xcodeproj */;
 				},
+				{
+					ProductGroup = D49721F61E43924500480754 /* Products */;
+					ProjectRef = D49721F51E43924500480754 /* AppFramework.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -178,6 +230,27 @@
 			fileType = wrapper.framework;
 			path = AppFramework.framework;
 			remoteRef = D45851DF1E438BF90044BD96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D49721FA1E43924500480754 /* AppFrameworkAsPreviousVersion.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppFrameworkAsPreviousVersion.framework;
+			remoteRef = D49721F91E43924500480754 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D49721FE1E43924500480754 /* AppFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppFramework.framework;
+			remoteRef = D49721FD1E43924500480754 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D49722001E43924500480754 /* AppFrameworkAsPreviousVersion.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppFrameworkAsPreviousVersion.framework;
+			remoteRef = D49721FF1E43924500480754 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -206,10 +279,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D45851E41E438C220044BD96 /* PBXTargetDependency */ = {
+		D49722071E43927D00480754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppFrameworkAsPreviousVersion;
+			targetProxy = D49722061E43927D00480754 /* PBXContainerItemProxy */;
+		};
+		D49722091E43999800480754 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AppFramework;
-			targetProxy = D45851E31E438C220044BD96 /* PBXContainerItemProxy */;
+			targetProxy = D49722081E43999800480754 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
